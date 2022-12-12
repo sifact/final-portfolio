@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- box icons -->
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- unicons -->
+        <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+        />
+
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <title>Vite + React</title>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
+        <script>
+            ScrollReveal({
+                reset: true,
+                distance: "60px",
+                duration: 2500,
+                delay: 400,
+            });
+
+            ScrollReveal().reveal("h1", {
+                delay: 500,
+                origin: "left",
+            });
+            ScrollReveal().reveal(".home__social", { delay: 500 });
+            ScrollReveal().reveal(".punchline", { delay: 2000 });
+        </script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script> -->
+        <!-- <script>
+            VANTA.WAVES("#skills"),
+            color: 'green'
+        </script> -->
+    </body>
+</html>

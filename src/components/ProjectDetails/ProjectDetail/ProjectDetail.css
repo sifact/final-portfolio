@@ -1,0 +1,33 @@
+.img-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    justify-content: center;
+}
+
+.img {
+    width: 500px;
+    border-radius: 1rem;
+    margin-bottom: var(--mb-1);
+}
+
+.description {
+    color: var(--text-color);
+}
+
+.tech-wrapper {
+    display: flex;
+    gap: 2rem;
+
+    justify-content: center;
+}
+
+.overview-items {
+    list-style-type: circle;
+    color: var(--title-color);
+}
+
+.overview {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
