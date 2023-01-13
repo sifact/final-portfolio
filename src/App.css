@@ -11,11 +11,18 @@
     /*Color mode HSL(hue, saturation, lightness)*/
     --hue: 0;
     --sat: 0%;
-    --title-color: hsl(var(--hue), var(--sat), 20%);
+
+    --body-color: #1d283a;
+    --title-color-light: hsl(var(--hue), var(--sat), 98%);
+    --title-color: #fff;
+
+    --text-color: rgb(236, 229, 229);
+    --container-color: var(--neutral);
+    /* --title-color: hsl(var(--hue), var(--sat), 20%);
     --title-color-dark: hsl(var(--hue), var(--sat), 0%);
     --text-color: hsl(var(--hue), var(--sat), 46%);
     --body-color: hsl(var(--hue), var(--sat), 98%);
-    --container-color: #fff;
+    --container-color: #fff; */
 
     /* --hue: 0;
     --sat: 0%;
@@ -64,14 +71,12 @@
 [data-theme="dark"] {
     --hue: 0;
     --sat: 0%;
+    --title-color: hsl(var(--hue), var(--sat), 20%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+    --text-color: hsl(var(--hue), var(--sat), 46%);
+    --body-color: hsl(var(--hue), var(--sat), 98%);
+    --container-color: #fff;
 
-    /* --body-color-dark: ; */
-    --body-color: #1d283a;
-    --title-color-light: hsl(var(--hue), var(--sat), 98%);
-    --title-color: #fff;
-
-    --text-color: rgb(236, 229, 229);
-    --container-color: var(--neutral);
     background-color: var(--body-color);
 
     color: var(--text-color);

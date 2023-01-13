@@ -31,3 +31,34 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+    .img-wrapper {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .qualification__sections {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .img {
+        width: 100%;
+        border-radius: 1rem;
+        margin-bottom: var(--mb-1);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .img {
+        width: 100%;
+        border-radius: 1rem;
+        margin-bottom: var(--mb-1);
+    }
+}

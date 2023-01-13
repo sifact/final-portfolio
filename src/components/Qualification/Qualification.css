@@ -78,3 +78,18 @@
     background-color: var(--text-color);
     transform: translate(6px, -7px);
 } */
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+    .qualification__sections {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+}

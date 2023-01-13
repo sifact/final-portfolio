@@ -23,3 +23,26 @@
 .offer__box h3 {
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+    .services-info-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+
+        grid-gap: var(--mb-2);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .services-info-wrapper {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+}

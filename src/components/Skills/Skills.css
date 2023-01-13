@@ -35,3 +35,27 @@
 .skills__level {
     font-size: var(--tiny-font-size);
 }
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(1, 350px);
+        justify-content: center;
+
+        /* grid-gap: var(--mb-2); */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+
+        /* grid-gap: var(--mb-2); */
+    }
+}
+
+@media screen and (max-width: 350px) {
+}

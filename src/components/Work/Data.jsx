@@ -22,6 +22,7 @@ export const projectData = [
         image: project1,
         title: "Dental Care",
         category: "fullstack",
+        demo: "https://dental-care-5f1b3.web.app/",
         images: [project1, project1_2, project1_3],
         description:
             "Services about the clinical differential diagnosis of Oral Mucosal Lesions",
@@ -38,6 +39,7 @@ export const projectData = [
         image: project2,
         title: "Pre-owned",
         category: "fullstack",
+        demo: "https://reseller-1b724.web.app/",
         description: "Buy and Sell any second-hand Laptops",
         images: [project2, project2_2, project2_3],
         overview: [
@@ -52,6 +54,7 @@ export const projectData = [
         image: project3,
         title: "Prodigy Tech",
         category: "fullstack",
+        demo: "https://prodigy-tech.web.app/",
         description: "Online learning and teaching marketplace",
         images: [project3, project3_2, project3_3],
         overview: [
@@ -66,6 +69,7 @@ export const projectData = [
         image: project4,
         title: "Test Yourself",
         category: "frontend",
+        demo: "https://sensational-blini-2a4bdf.netlify.app/",
         description:
             "It will allow to assess your knowledge in CSS, JavaScript, React and Git.",
         images: [project4, project4_2, project4_3],

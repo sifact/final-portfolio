@@ -57,8 +57,11 @@ const Data = () => {
             </h1>
             <h3 className="home__subtitle">MERN stack developer</h3>
             <p className="home__description">
-                I'm a creative developer based in Mymensingh, and I'm very
-                passionate and dedicated to my work.
+                A programmer, a problem solver who loves Programming,
+                Developing, learning, and Problem-Solving. I am passionate about
+                working with dedicated teams to build efficient and robust
+                applications that could help make the world become more open and
+                more connected.
             </p>
             <a className="button button--flex">
                 Say Hello
